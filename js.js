@@ -3,6 +3,8 @@
 
 // Dibujar un cuadrado.
 // Hacer x filas con x estrellas, donde x es introducido por el usuario.
+console.log("Cuadrado");
+
 var square = (n, char) => {
     var charAdd = "";
     for (let i = 0; i < n; i++) {
@@ -19,6 +21,8 @@ square(5, "*");
 //Dibujar un cuadrado
 //Hacer x filas con x estrellas, donde x es introducido por el usuario.
 //Donde los bordes sean de un caracter y el interior de otro caracter
+console.log("")
+console.log("Cuadrado con Borde");
 
 var squareWithBorder = (n, charBorder, charInner) => {
     for (let i = 1; i <= n; i++) {
@@ -43,6 +47,8 @@ squareWithBorder(2, "B", "*");
 //Dibujar un cuadrado con una diagonal en medio
 //En cada lado de la diagonal habra un caracter diferente
 //Empezar primera fila con la diagonal e ir desplazandola una posicion sustituyendolo por un segundo caracter.
+console.log("")
+console.log("CUADRADO DIAGONAL LEFT-RIGHT");
 
 var squareDiagonalLR = (n, charDiagonal, charUp, charDown) => {
     let row = ""
@@ -64,6 +70,8 @@ squareDiagonalLR(3, "\\", "A", "B");
 
 
 //CUADRADO DIAGONAL RIGHT-LEFT
+console.log("")
+console.log("CUADRADO DIAGONAL RIGHT-LEFT");
 
 var squareDiagonalRL = (n, charDiagonal, charUp, charDown) => {
     let linea = "";
@@ -89,6 +97,8 @@ squareDiagonalRL(4, "/", "A", "B");
 
 
 // MEDIO DIAMANTE
+console.log("")
+console.log("MEDIO DIAMANTE");
 
 var halfDiamond = (n, char) => {
     let linea = ""
@@ -105,6 +115,8 @@ var halfDiamond = (n, char) => {
 halfDiamond(5, "*")
 
 // PIRAMIDE
+console.log("")
+console.log("PIRAMIDE");
 
 var pyramid = (lineas_totales, char) => {
 
@@ -133,6 +145,8 @@ var pyramid = (lineas_totales, char) => {
 pyramid(15, "*")
 
 //DIAMANTE
+console.log("")
+console.log("DIAMANTE");
 var diamond = (n, char) => {
     var filasTotales = (n * 2);
     let columnasTotales = ((n * 2) - 1);

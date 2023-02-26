@@ -8,3 +8,4 @@ En cada ejercicio se dibuja una figura por consola, usando uno o varios carácte
 Además, la figura podrá ser pintada con distintos tamaños.
 
 
+https://aroamz.github.io/-lemon-code-modulo-6.3-Algoritmos-III-FIGURAS/
